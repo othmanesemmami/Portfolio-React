@@ -1,0 +1,44 @@
+/* left section
+-------------------------------------------------*/
+section.hero{margin-top: 2rem; }
+section.hero .left-H{
+    flex-grow: 1;
+       }
+section.hero .photo{
+width: 150px;
+height: 150px; 
+border-radius: 50%;
+border:2px solid orange; 
+padding: 3px;
+box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.568) inset;
+margin-right: -1rem; 
+}
+.title{
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin: 1rem 0;
+    color: var(--t);
+}
+.para{
+    color: var(--su);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+ .ico{
+    font-size: 1.2rem;
+    gap: 1rem;/* distance entre les elements ( obligation display flex)*/
+    color: var(--su);
+}
+.ia{
+    width: 100%;
+    translate: 30px 55px;
+}
+.ico .ic:hover{
+    color: var(--ich);
+    font-size: 1.8rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+/* right section
+-------------------------------------------------*/

@@ -1,0 +1,16 @@
+footer{justify-content: space-between;
+ }
+footer ul {gap: 1rem;
+color: var(--su);
+font-size: 15px; 
+font-weight: 300px;}
+footer ul a:hover{
+    color: var(--bl);
+    font-size: 20px;
+    font-weight: 500px;
+}
+footer p{color: rgb(113,133, 122); }
+@media(max-width:800px){
+    footer{
+      flex-direction: column;
+    }}
